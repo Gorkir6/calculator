@@ -6,7 +6,9 @@
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, pink,rgb(104, 206, 209)) ;
+    /* background: linear-gradient(to right, pink,rgb(104, 206, 209)) ; */
+    background: url('images/calc_back.jpg');
+    
     
 }
 .calculator_grid{
@@ -25,7 +27,7 @@ body{
     background-color: rgb(236, 226, 213);
 }
 .calculator_grid > button:hover{
-    background-color: rgba(236, 226, 213, 0.486);;
+    background-color: rgb(236, 205, 165);;
 }
 .span_two{
     grid-column: span 2;
