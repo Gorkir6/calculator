@@ -48,3 +48,9 @@ body{
 .output .previous{
     font-size: 1.5rem;
 }
+@media (max-width: 640px){
+    .calculator_grid{
+        width: 90%;
+        padding-left: 5%;
+    }
+}

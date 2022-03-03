@@ -56,7 +56,7 @@ class Calculator{
         this.currentOperand = computation
         this.operation = undefined
         this.prevOperand = ''
-        this.prevButton.innerText = ''
+        
     }
     getDisplayNum(number){
         return number
@@ -65,6 +65,8 @@ class Calculator{
         this.currentButton.innerText = this.getDisplayNum(this.currentOperand)
         if(this.operation != null){
             this.prevButton.innerText = `${this.getDisplayNum(this.prevOperand)} ${this.operation}`
+        }else{
+            this.prevButton.innerText = ''
         }
         
     }
