@@ -54,7 +54,7 @@ body{
 @media (max-width: 640px){
     .calculator_grid{
         width: 100%;
-        padding-left: 5%;
+       
     }
     body{
         justify-content: flex-start;
